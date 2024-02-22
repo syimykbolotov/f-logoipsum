@@ -1,0 +1,430 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1070px;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: DM + Sans;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* HEADER */
+
+#header {
+  padding: 30px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav a {
+  color: #696871;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.469px;
+  margin: 0 30px;
+  transition: 0.8s;
+}
+
+.header-nav a:hover {
+  color: black;
+  border-bottom: 4px solid #5454d4;
+}
+
+.header button {
+  padding: 19px 60px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.531px;
+  background: #ff7143;
+  border-radius: 10px;
+  transition: 0.7s;
+}
+
+.header button:hover {
+  transform: scale(1.1);
+}
+
+/* HERO */
+
+#hero {
+  padding: 100px 0;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+}
+
+.heroo {
+  animation: her 3s alternate ease-in-out;
+}
+
+@keyframes her {
+  0% {
+    transform: translateY(-200px);
+  }
+}
+
+.hero h1 {
+  color: #19191b;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 77px; /* 96.25% */
+  letter-spacing: -2.501px;
+  margin-right: 70px;
+}
+
+.hero p {
+  color: #696871;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: -0.625px;
+  margin: 30px 0 50px 0;
+}
+
+.hero-row {
+  display: flex;
+  align-items: center;
+}
+
+.hero-row button {
+  padding: 19px 60px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.531px;
+  border-radius: 10px;
+  background: #5454d4;
+  margin-right: 40px;
+}
+
+/* LOGOS */
+
+#logos {
+  padding: 100px 0;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* SUBSCRIPTION */
+
+#subscription {
+  margin-bottom: 83px;
+}
+
+.subscription {
+  display: flex;
+  align-items: center;
+}
+
+.subscription-text {
+  margin-left: 165px;
+}
+
+.subscription-text h1 {
+  color: #19191b;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -1.563px;
+}
+
+.subscription-text p {
+  color: #696871;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: -0.625px;
+  margin: 30px 0;
+}
+
+.subscription-text a {
+  color: #5454d4;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.531px;
+}
+
+/* DEPTH */
+
+.depth {
+  display: flex;
+  align-items: center;
+}
+
+.depth h1 {
+  color: #19191b;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: -1.563px;
+}
+
+.depth p {
+  color: #696871;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+  letter-spacing: -0.625px;
+  margin: 30px 228px 30px 0;
+}
+
+.depth-text a {
+  color: #5454d4;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.531px;
+}
+
+/* CARD */
+
+#card {
+  padding: 100px 0;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ben {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.ben h1 {
+  color: #19191b;
+  /* text-align: center; */
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px; /* 150% */
+  letter-spacing: -0.75px;
+  margin: 20px 0;
+}
+
+.ben p {
+  color: #696871;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.5px;
+}
+
+.ben img {
+  width: 114px;
+  height: 64px;
+  margin-left: 32px;
+}
+
+/* PLAN */
+
+#plan {
+  margin-bottom: 150px;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.plan h1 {
+  color: #19191b;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px; /* 116.667% */
+  letter-spacing: -1.876px;
+}
+
+.plan-left {
+  padding: 18px 48px;
+  color: #19191b;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  border-radius: 10px;
+  background: #f7f7fb;
+  transition: 0.8s;
+}
+
+.plan-left:focus {
+  color: #fff;
+  background: #5454d4;
+}
+
+.plan-right {
+  padding: 18px 48px;
+  color: #19191b;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  border-radius: 10px;
+  background: #f7f7fb;
+  transition: 0.8s;
+}
+
+.plan-right:focus {
+  color: #fff;
+  background: #5454d4;
+}
+
+.plan-btn {
+  display: flex;
+}
+
+/* PRICE */
+
+#price {
+  padding: 10px 0 130px 0;
+  position: relative;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-left {
+  width: 330px;
+  height: 441px;
+  border-radius: 10px;
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: 0.8s;
+}
+
+.price-left:hover {
+  transform: scale(1.1);
+  border-radius: 10px;
+  background: #ff7143;
+  color: white;
+}
+
+.price-left h6 {
+  /* color: #696871; */
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+  letter-spacing: -0.563px;
+  margin: 20px 0;
+}
+
+.price-left h1 {
+  /* color: #1d293f; */
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: -1.034px;
+}
+
+.price-left button {
+  width: 285px;
+  height: 60px;
+  color: #5454d4;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.531px;
+  border-radius: 10px;
+  background: #fff;
+  margin: 0 auto;
+}
+.price-left button:hover {
+  width: 285px;
+  height: 60px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: -0.531px;
+  border-radius: 10px;
+  background: #9f3919;
+  margin: 0 auto;
+}
+
+.foott {
+  color: #e4e4e4;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 30px;
+  left: 120px;
+}
+
+/* MEDIA */
+
+@media (max-width: 1400px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .heroo {
+    width: 20%;
+  }
+  .hero-text h1 {
+    font-size: 48px;
+  }
+  .header-nav {
+    display: none;
+  }
+  .logos {
+    width: 85%;
+  }
+  .subscription-text {
+    margin-left: 38px;
+  }
+  .depth p {
+    margin: 30px 67px 30px 0;
+  }
+  .subscription img {
+    width: 30%;
+  }
+  .depth img {
+    width: 30%;
+  }
+  .card {
+    width: 80%;
+  }
+  .plan h1 {
+    font-size: 45px;
+  }
+  .price-left {
+    width: 240px;
+  }
+  .price-left h1 {
+    font-size: 32px;
+  }
+  .price-left button {
+    width: 120px;
+  }
+}
